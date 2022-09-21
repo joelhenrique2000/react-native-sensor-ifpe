@@ -1,0 +1,39 @@
+{
+  "name": "proximity-sensor-native",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/ProximitySensorNative.js",
+  "types": "build/ProximitySensorNative.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "proximity-sensor-native",
+    "ProximitySensorNative"
+  ],
+  "repository": "https://github.com/joelhenrique2000/proximity-sensor-native",
+  "bugs": {
+    "url": "https://github.com/joelhenrique2000/proximity-sensor-native/issues"
+  },
+  "author": "Joel Henrique Silva Santos <joelhenrique2000@gmail.com> (https://github.com/joelhenrique2000)",
+  "license": "MIT",
+  "homepage": "https://github.com/joelhenrique2000/proximity-sensor-native#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expo-module-scripts": "^2.1.1",
+    "expo-modules-core": "^0.11.4"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

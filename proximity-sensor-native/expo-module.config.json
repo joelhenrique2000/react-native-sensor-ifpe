@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ProximitySensorNativeModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.proximitysensornative.ProximitySensorNativeModule"]
+  }
+}
